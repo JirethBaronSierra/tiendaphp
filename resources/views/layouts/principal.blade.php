@@ -13,7 +13,7 @@
 </head>
 <body>
 <nav>
-    <div class="nav-wrapper   pink lighten-2">
+    <div class="nav-wrapper    cyan lighten-1">
       <a href="#" class="brand-logo">LaTiendaPHP</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="badges.html">Productos</a></li>
