@@ -3,7 +3,10 @@
 
     <form class="col s8" method="POST" action="{{ route('productos.store') }}">
       @csrf
+      @if( session('mensajito'))
         <div class="row">
+          <strong>{{session('mensajito')}}</strong>
+          @endif
             <div class="col s8"> 
                 <h1 class=" purple-text  darken-1">Nuevo producto</h1>
             </div>
@@ -16,6 +19,7 @@
           class="validate"
           name="nombre">
           <label for="nombre">Nombre del producto</label>
+          
         </div>
         
       </div>
